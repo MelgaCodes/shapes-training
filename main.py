@@ -1,17 +1,15 @@
-from shapes import Segment, Point
-import isinside
+import shapes, isinside, functions
 
-vertex_1_segment_x = input("Insert X coordinate of the first vertex of the segment: ")
-vertex_1_segment_y = input("Insert Y coordinate of the first vertex of the segment: ")
-vertex_2_segment_x = input("Insert X coordinate of the second vertex of the segment: ")
-vertex_2_segment_y = input("Insert Y coordinate of the second vertex of the segment: ")
+print("Enter the coordinates of the first point of the segment")
+vertex_1_segment = functions.get_coordinates()
+print("Enter the coordinates of the second point of the segment")
+vertex_2_segment = functions.get_coordinates()
 
-vertex_1_segment = (float(vertex_1_segment_x), float(vertex_1_segment_y))
-vertex_2_segment = (float(vertex_2_segment_x), float(vertex_2_segment_y))
+segment = shapes.Segment(vertex_1_segment, vertex_2_segment)
 
-segment = Segment(vertex_1_segment, vertex_2_segment)
+print("Enter the coordinates of the point")
+point = shapes.Point(functions.get_coordinates())
 
-point_coordinates = (float(input("Insert the point X coordinate: ")), float(input("Insert the point Y coordinate: ")))
-point = Point(point_coordinates)
+print(point.coordinates, segment.vertex_1, segment.vertex_2)
 
 print(isinside.point_in_line(point.coordinates, segment.vertex_1, segment.vertex_2))
