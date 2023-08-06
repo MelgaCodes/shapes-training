@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15a700e8-db2a-4a16-8652-3eef1dffdcad" name="Changes" comment="First version">
+    <list default="true" id="15a700e8-db2a-4a16-8652-3eef1dffdcad" name="Changes" comment="Fixed bugs:&#10;- User coordinates input converted to float instead of int in get_coordinates function.&#10;- Now the program will return False if the point falls inside the infinite line that contains the segment but outside the segment itself.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/isinside.py" beforeDir="false" afterPath="$PROJECT_DIR$/isinside.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/isinside.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapes.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +25,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/shapes.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -98,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691161793092</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fixed bugs:&#10;- User coordinates input converted to float instead of int in get_coordinates function.&#10;- Now the program will return False if the point falls inside the infinite line that contains the segment but outside the segment itself.">
+      <created>1691357676244</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691357676244</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +125,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First version" />
-    <option name="LAST_COMMIT_MESSAGE" value="First version" />
+    <MESSAGE value="Fixed bugs:&#10;- User coordinates input converted to float instead of int in get_coordinates function.&#10;- Now the program will return False if the point falls inside the infinite line that contains the segment but outside the segment itself." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bugs:&#10;- User coordinates input converted to float instead of int in get_coordinates function.&#10;- Now the program will return False if the point falls inside the infinite line that contains the segment but outside the segment itself." />
   </component>
 </project>
